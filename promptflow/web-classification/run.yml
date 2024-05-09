@@ -8,8 +8,8 @@ runtime: 'automatic'
 
 connections:
   classify_with_llm:
-    connection: AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: Azure_openai
+    deployment_name: gpt-35-turbo
   summarize_text_content:
-    connection: AzureOpenAI
-    deployment_name: gpt-35-turbo-0301
+    connection: Azure_openai
+    deployment_name: gpt-35-turbo
